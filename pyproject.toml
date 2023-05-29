@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mymarriage"
+version = "0.1.0"
+description = ""
+authors = ["Tarik Nazorek"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11"
+Django = "^4.2.1"
+djangorestframework = "^3.14.0"
+ipython = "^8.13.2"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
